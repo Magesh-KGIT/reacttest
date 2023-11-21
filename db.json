@@ -1,0 +1,138 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "Tree_view": "View",
+      "Name": "Test1",
+      "BOM": "B1",
+      "FG Store": "Raw material",
+      "Scrap Reject Store": "Instrument",
+      "Remarks": "45211"
+    },
+    {
+      "id": 2,
+      "Tree_view": "View",
+      "Name": "BOM-2",
+      "BOM": "B2",
+      "FG Store": "Production",
+      "Scrap Reject Store": "Scrap Store",
+      "Remarks": "None"
+    },
+    {
+      "id": 3,
+      "Tree_view": "View",
+      "Name": "BOM-3",
+      "BOM": "B3",
+      "FG Store": "Instruments",
+      "Scrap Reject Store": "Instruments",
+      "Remarks": "asd"
+    },
+    {
+      "id": 4,
+      "Tree_view": "View",
+      "Name": "BOM-4",
+      "BOM": "B4",
+      "FG Store": "Production",
+      "Scrap Reject Store": "Raw Material",
+      "Remarks": "damage"
+    },
+    {
+      "id": 5,
+      "Tree_view": "View",
+      "Name": "BOM-5",
+      "BOM": "B5",
+      "FG Store": "Raw Material",
+      "Scrap Reject Store": "Production",
+      "Remarks": "111"
+    },
+    {
+      "BOM": "B6",
+      "FG Store": "Production",
+      "Scrap Reject Store": "Instruments",
+      "Remarks": "kkkkkkkkkkkkkkkkkkkkk",
+      "id": 6
+    }
+  ],
+  "finishedGoods": [
+    {
+      "id": 1,
+      "Part No": "123",
+      "Name": "Product A",
+      "Category": "Electronics",
+      "Qty": 10,
+      "Unit": "pcs",
+      "Cast Allocation": "Factory A",
+      "Remarks": "Good product"
+    },
+    {
+      "id": 2,
+      "Part No": "456",
+      "Name": "Product B",
+      "Category": "Clothing",
+      "Qty": 20,
+      "Unit": "pcs",
+      "Cast Allocation": "Factory B",
+      "Remarks": "High demand"
+    }
+  ],
+  "rawMaterials": [
+    {
+      "S.No": 1,
+      "Part No": "RM001",
+      "Name": "Raw Material 1",
+      "Category": "Category A",
+      "Qty": 100,
+      "Unit": "kg",
+      "Store": "Storage Room 1"
+    },
+    {
+      "S.No": 2,
+      "Part No": "RM002",
+      "Name": "Raw Material 2",
+      "Category": "Category B",
+      "Qty": 150,
+      "Unit": "kg",
+      "Store": "Storage Room 2"
+    },
+    {
+      "S.No": 3,
+      "Part No": "RM003",
+      "Name": "Raw Material 3",
+      "Category": "Category A",
+      "Qty": 200,
+      "Unit": "kg",
+      "Store": "Storage Room 1"
+    }
+  ],
+  "scrap": [
+    {
+      "S.No": 1,
+      "Part No": "SP001",
+      "Name": "Scrap 1",
+      "Category": "Category X",
+      "Qty": 50,
+      "Unit": "kg",
+      "Cast All": "Yes"
+    },
+    {
+      "S.No": 2,
+      "Part No": "SP002",
+      "Name": "Scrap 2",
+      "Category": "Category Y",
+      "Qty": 30,
+      "Unit": "kg",
+      "Cast All": "No"
+    },
+    {
+      "S.No": 3,
+      "Part No": "SP003",
+      "Name": "Scrap 3",
+      "Category": "Category X",
+      "Qty": 20,
+      "Unit": "kg",
+      "Cast All": "Yes"
+    }
+  ]
+
+}
+
